@@ -1,0 +1,8 @@
+    
+    $('.changeIconClass').on('show.bs.collapse', function () {
+      $(this).parent().find(".change").attr('src', "/Portals/0/Resources/chisiamo/attivita/img/su.png");
+    })
+
+    $('.changeIconClass').on('hidden.bs.collapse', function () {
+      $(this).parent().find(".change").attr('src', "/Portals/0/Resources/chisiamo/attivita/img/freccia.png");
+    })

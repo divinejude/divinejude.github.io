@@ -1,0 +1,15 @@
+.genero-il-file {
+  color: red;
+}
+
+.gallery-image-wrapper img {
+  width: 100%;
+}
+
+.mm ul {
+    max-width: none !important;
+    width: 200% !important;
+    padding-right: 100% !important;
+}
+
+

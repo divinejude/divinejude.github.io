@@ -1,0 +1,126 @@
+ul.ind  {
+    font-size: 1rem;
+    font-family: Roboto,sans-serif;
+    line-height: 1.2;
+    margin: 1.5rem 0;
+    padding: 0;
+    list-style: none;
+}
+ul li.ind:before {
+    content: "\25a0";
+    font-size: .75rem;
+    color: #295eb9;
+    vertical-align: middle;
+    display: inline-block;
+    width: 1rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+ul li.ind {
+    font-size: .875rem;
+}
+@media only screen and (min-width: 48em){
+ul li.ind  {
+    color: #2f2f2f;
+    margin: 1rem 0;
+    padding: 0 0 0 1rem;
+    font-size: 1rem;
+    position: relative;
+}
+}
+p.acr {
+    line-height: 1.6;
+    font-family: Roboto,sans-serif;
+    color: #2f2f2f;
+    font-size: .875rem;
+    margin: 0 0 1rem;
+}
+@media only screen and (min-width: 48em) {
+p.acr {
+    font-size: 1rem!important;
+    line-height: 1.8!important;
+}
+}
+.card-header {
+    background: linear-gradient(to right, #fa894a  0%, #ffc83a 100%);
+}
+.freccia {
+    float: left;
+    margin-right: 10px;
+}
+p.collapsed {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h5 {color:#ffffff;}
+
+.change {
+color: #ffffff;
+text-decoration:none;
+margin-right: 10px;
+cursor:pointer;
+}
+
+p.collapsed:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*p:active {color:#ffffff;}*/
+p.collapsed:active {color:#ffffff;}
+
+.oswald {font-family:Oswald, sans-serif!important;
+font-size: 1.5rem!important;
+margin-bottom:-0.5rem!important;}
+
+.logo { margin-bottom: 1rem;}
+
+.title {
+
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    letter-spacing: .05rem;
+    margin: 0;
+    padding: 0;
+	}
+	
+.icon {
+
+    color: #ffffff;
+    vertical-align: center;
+    z-index: 1;
+    margin-right: .65rem;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+}
+
+ .paint {
+    background-color: #54bbaa;
+    padding-bottom: 0.01rem;
+    padding-top: 0.4rem;
+}
+
+.paint-due {
+    background-color: #88d16f;
+    padding-bottom: 0.01rem;
+    padding-top: 0.4rem;}
+	
+.focus__text {
+	border: solid 0.2rem #54bbaa;
+    padding: 10px;
+	border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.due {
+	border: solid 0.2rem #88d16f;
+    padding: 10px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.verde {color:#54bbaa;}
+.giallo {color: #caed23;}
